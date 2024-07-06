@@ -1,0 +1,19 @@
+body {
+    background-color: gray;
+    color: white; /* Makes the text readable on a gray background */
+    font-family: Arial, sans-serif; /* Specifies a font */
+    margin: 0;
+    padding: 0;
+}
+
+.top-line {
+    width: 100%;
+    height: 5px; /* Height of the white line */
+    background-color: white;
+    position: absolute;
+    top: 50px; /* Distance from the top of the page */
+}
+
+.content {
+    padding-top: 60px; /* Padding to ensure content is below the white line */
+}
